@@ -1,0 +1,19 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.swp
+*.swo
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Private voicemail data and local audio assets
+voicemails/
+*.wav
+
+# Windows download metadata
+*:Zone.Identifier
